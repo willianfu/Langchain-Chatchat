@@ -15,18 +15,16 @@ if __name__ == "__main__":
     is_lite = "lite" in sys.argv
 
     st.set_page_config(
-        "Langchain-Chatchat WebUI",
+        "农业领域知识库AI",
         os.path.join("img", "chatchat_icon_blue_square_v2.png"),
         initial_sidebar_state="expanded",
         menu_items={
-            'Get Help': 'https://github.com/chatchat-space/Langchain-Chatchat',
-            'Report a bug': "https://github.com/chatchat-space/Langchain-Chatchat/issues",
-            'About': f"""欢迎使用 Langchain-Chatchat WebUI {VERSION}！"""
+            '关于': f"""农业领域知识库AI {VERSION}！"""
         }
     )
 
     pages = {
-        "对话": {
+        "对话交流": {
             "icon": "chat",
             "func": dialogue_page,
         },
