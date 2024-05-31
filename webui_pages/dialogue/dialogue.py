@@ -104,8 +104,8 @@ def dialogue_page(api: ApiRequest, is_lite: bool = False):
 
     if not chat_box.chat_inited:
         st.toast(
-            f"欢迎使用 [`Langchain-Chatchat`](https://github.com/chatchat-space/Langchain-Chatchat) ! \n\n"
-            f"当前运行的模型`{default_model}`, 您可以开始提问了."
+            f"欢迎使用 农业领域AI大模型! \n\n"
+            f"当前运行的模型`{default_model}`, 有任何问题敬请吩咐😃."
         )
         chat_box.init_session()
 
